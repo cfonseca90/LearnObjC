@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'LearnObjC' target in the 'LearnObjC' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

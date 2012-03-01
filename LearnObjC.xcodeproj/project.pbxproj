@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C94351150030D900F09A86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C94350150030D900F09A86 /* Cocoa.framework */; };
+		18C9435B150030D900F09A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C94359150030D900F09A86 /* InfoPlist.strings */; };
+		18C9435D150030D900F09A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9435C150030D900F09A86 /* main.m */; };
+		18C94361150030D900F09A86 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18C9435F150030D900F09A86 /* Credits.rtf */; };
+		18C94364150030D900F09A86 /* WFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C94363150030D900F09A86 /* WFAppDelegate.m */; };
+		18C94367150030D900F09A86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C94365150030D900F09A86 /* MainMenu.xib */; };
+		18C9436F150030D900F09A86 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C9436E150030D900F09A86 /* SenTestingKit.framework */; };
+		18C94370150030D900F09A86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C94350150030D900F09A86 /* Cocoa.framework */; };
+		18C94378150030D900F09A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C94376150030D900F09A86 /* InfoPlist.strings */; };
+		18C9437B150030D900F09A86 /* LearnObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9437A150030D900F09A86 /* LearnObjCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C94371150030D900F09A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C94343150030D900F09A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C9434B150030D900F09A86;
+			remoteInfo = LearnObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C9434C150030D900F09A86 /* LearnObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C94350150030D900F09A86 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18C94353150030D900F09A86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18C94354150030D900F09A86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18C94355150030D900F09A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C94358150030D900F09A86 /* LearnObjC-Info.plist */ = {isa = PBXFileReference; path = "LearnObjC-Info.plist"; sourceTree = "<group>"; };
+		18C9435A150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C9435C150030D900F09A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C9435E150030D900F09A86 /* LearnObjC-Prefix.pch */ = {isa = PBXFileReference; path = "LearnObjC-Prefix.pch"; sourceTree = "<group>"; };
+		18C94360150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		18C94362150030D900F09A86 /* WFAppDelegate.h */ = {isa = PBXFileReference; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		18C94363150030D900F09A86 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
+		18C94366150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18C9436D150030D900F09A86 /* LearnObjCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnObjCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C9436E150030D900F09A86 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18C94375150030D900F09A86 /* LearnObjCTests-Info.plist */ = {isa = PBXFileReference; path = "LearnObjCTests-Info.plist"; sourceTree = "<group>"; };
+		18C94377150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C94379150030D900F09A86 /* LearnObjCTests.h */ = {isa = PBXFileReference; path = LearnObjCTests.h; sourceTree = "<group>"; };
+		18C9437A150030D900F09A86 /* LearnObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnObjCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C94349150030D900F09A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C94351150030D900F09A86 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C94369150030D900F09A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9436F150030D900F09A86 /* SenTestingKit.framework in Frameworks */,
+				18C94370150030D900F09A86 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C94341150030D900F09A86 = {
+			isa = PBXGroup;
+			children = (
+				18C94356150030D900F09A86 /* LearnObjC */,
+				18C94373150030D900F09A86 /* LearnObjCTests */,
+				18C9434F150030D900F09A86 /* Frameworks */,
+				18C9434D150030D900F09A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C9434D150030D900F09A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C9434C150030D900F09A86 /* LearnObjC.app */,
+				18C9436D150030D900F09A86 /* LearnObjCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C9434F150030D900F09A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C94350150030D900F09A86 /* Cocoa.framework */,
+				18C9436E150030D900F09A86 /* SenTestingKit.framework */,
+				18C94352150030D900F09A86 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C94352150030D900F09A86 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C94353150030D900F09A86 /* AppKit.framework */,
+				18C94354150030D900F09A86 /* CoreData.framework */,
+				18C94355150030D900F09A86 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18C94356150030D900F09A86 /* LearnObjC */ = {
+			isa = PBXGroup;
+			children = (
+				18C94362150030D900F09A86 /* WFAppDelegate.h */,
+				18C94363150030D900F09A86 /* WFAppDelegate.m */,
+				18C94365150030D900F09A86 /* MainMenu.xib */,
+				18C94357150030D900F09A86 /* Supporting Files */,
+			);
+			path = LearnObjC;
+			sourceTree = "<group>";
+		};
+		18C94357150030D900F09A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C94358150030D900F09A86 /* LearnObjC-Info.plist */,
+				18C94359150030D900F09A86 /* InfoPlist.strings */,
+				18C9435C150030D900F09A86 /* main.m */,
+				18C9435E150030D900F09A86 /* LearnObjC-Prefix.pch */,
+				18C9435F150030D900F09A86 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C94373150030D900F09A86 /* LearnObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C94379150030D900F09A86 /* LearnObjCTests.h */,
+				18C9437A150030D900F09A86 /* LearnObjCTests.m */,
+				18C94374150030D900F09A86 /* Supporting Files */,
+			);
+			path = LearnObjCTests;
+			sourceTree = "<group>";
+		};
+		18C94374150030D900F09A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C94375150030D900F09A86 /* LearnObjCTests-Info.plist */,
+				18C94376150030D900F09A86 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C9434B150030D900F09A86 /* LearnObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C9437E150030D900F09A86 /* Build configuration list for PBXNativeTarget "LearnObjC" */;
+			buildPhases = (
+				18C94348150030D900F09A86 /* Sources */,
+				18C94349150030D900F09A86 /* Frameworks */,
+				18C9434A150030D900F09A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnObjC;
+			productName = LearnObjC;
+			productReference = 18C9434C150030D900F09A86 /* LearnObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C9436C150030D900F09A86 /* LearnObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C94381150030D900F09A86 /* Build configuration list for PBXNativeTarget "LearnObjCTests" */;
+			buildPhases = (
+				18C94368150030D900F09A86 /* Sources */,
+				18C94369150030D900F09A86 /* Frameworks */,
+				18C9436A150030D900F09A86 /* Resources */,
+				18C9436B150030D900F09A86 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C94372150030D900F09A86 /* PBXTargetDependency */,
+			);
+			name = LearnObjCTests;
+			productName = LearnObjCTests;
+			productReference = 18C9436D150030D900F09A86 /* LearnObjCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C94343150030D900F09A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 18C94346150030D900F09A86 /* Build configuration list for PBXProject "LearnObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18C94341150030D900F09A86;
+			productRefGroup = 18C9434D150030D900F09A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C9434B150030D900F09A86 /* LearnObjC */,
+				18C9436C150030D900F09A86 /* LearnObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C9434A150030D900F09A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9435B150030D900F09A86 /* InfoPlist.strings in Resources */,
+				18C94361150030D900F09A86 /* Credits.rtf in Resources */,
+				18C94367150030D900F09A86 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C9436A150030D900F09A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C94378150030D900F09A86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18C9436B150030D900F09A86 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C94348150030D900F09A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9435D150030D900F09A86 /* main.m in Sources */,
+				18C94364150030D900F09A86 /* WFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C94368150030D900F09A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C9437B150030D900F09A86 /* LearnObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C94372150030D900F09A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C9434B150030D900F09A86 /* LearnObjC */;
+			targetProxy = 18C94371150030D900F09A86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C94359150030D900F09A86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C9435A150030D900F09A86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18C9435F150030D900F09A86 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C94360150030D900F09A86 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		18C94365150030D900F09A86 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C94366150030D900F09A86 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		18C94376150030D900F09A86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C94377150030D900F09A86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C9437C150030D900F09A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18C9437D150030D900F09A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18C9437F150030D900F09A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnObjC/LearnObjC-Prefix.pch";
+				INFOPLIST_FILE = "LearnObjC/LearnObjC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18C94380150030D900F09A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnObjC/LearnObjC-Prefix.pch";
+				INFOPLIST_FILE = "LearnObjC/LearnObjC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18C94382150030D900F09A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnObjC.app/Contents/MacOS/LearnObjC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnObjC/LearnObjC-Prefix.pch";
+				INFOPLIST_FILE = "LearnObjCTests/LearnObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18C94383150030D900F09A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnObjC.app/Contents/MacOS/LearnObjC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnObjC/LearnObjC-Prefix.pch";
+				INFOPLIST_FILE = "LearnObjCTests/LearnObjCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C94346150030D900F09A86 /* Build configuration list for PBXProject "LearnObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9437C150030D900F09A86 /* Debug */,
+				18C9437D150030D900F09A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C9437E150030D900F09A86 /* Build configuration list for PBXNativeTarget "LearnObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C9437F150030D900F09A86 /* Debug */,
+				18C94380150030D900F09A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C94381150030D900F09A86 /* Build configuration list for PBXNativeTarget "LearnObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C94382150030D900F09A86 /* Debug */,
+				18C94383150030D900F09A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C94343150030D900F09A86 /* Project object */;
+}
