@@ -35,19 +35,19 @@
 		18C94353150030D900F09A86 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		18C94354150030D900F09A86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		18C94355150030D900F09A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		18C94358150030D900F09A86 /* LearnObjC-Info.plist */ = {isa = PBXFileReference; path = "LearnObjC-Info.plist"; sourceTree = "<group>"; };
+		18C94358150030D900F09A86 /* LearnObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnObjC-Info.plist"; sourceTree = "<group>"; };
 		18C9435A150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18C9435C150030D900F09A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18C9435E150030D900F09A86 /* LearnObjC-Prefix.pch */ = {isa = PBXFileReference; path = "LearnObjC-Prefix.pch"; sourceTree = "<group>"; };
+		18C9435E150030D900F09A86 /* LearnObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnObjC-Prefix.pch"; sourceTree = "<group>"; };
 		18C94360150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		18C94362150030D900F09A86 /* WFAppDelegate.h */ = {isa = PBXFileReference; path = WFAppDelegate.h; sourceTree = "<group>"; };
+		18C94362150030D900F09A86 /* WFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAppDelegate.h; sourceTree = "<group>"; };
 		18C94363150030D900F09A86 /* WFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAppDelegate.m; sourceTree = "<group>"; };
 		18C94366150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		18C9436D150030D900F09A86 /* LearnObjCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnObjCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C9436E150030D900F09A86 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		18C94375150030D900F09A86 /* LearnObjCTests-Info.plist */ = {isa = PBXFileReference; path = "LearnObjCTests-Info.plist"; sourceTree = "<group>"; };
+		18C94375150030D900F09A86 /* LearnObjCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnObjCTests-Info.plist"; sourceTree = "<group>"; };
 		18C94377150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18C94379150030D900F09A86 /* LearnObjCTests.h */ = {isa = PBXFileReference; path = LearnObjCTests.h; sourceTree = "<group>"; };
+		18C94379150030D900F09A86 /* LearnObjCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnObjCTests.h; sourceTree = "<group>"; };
 		18C9437A150030D900F09A86 /* LearnObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnObjCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
