@@ -17,6 +17,7 @@
 		18C94370150030D900F09A86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C94350150030D900F09A86 /* Cocoa.framework */; };
 		18C94378150030D900F09A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C94376150030D900F09A86 /* InfoPlist.strings */; };
 		18C9437B150030D900F09A86 /* LearnObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C9437A150030D900F09A86 /* LearnObjCTests.m */; };
+		18C943861500371C00F09A86 /* NSArray+WFArrayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C943851500371C00F09A86 /* NSArray+WFArrayUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		18C94377150030D900F09A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18C94379150030D900F09A86 /* LearnObjCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnObjCTests.h; sourceTree = "<group>"; };
 		18C9437A150030D900F09A86 /* LearnObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnObjCTests.m; sourceTree = "<group>"; };
+		18C943841500371C00F09A86 /* NSArray+WFArrayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WFArrayUtil.h"; sourceTree = "<group>"; };
+		18C943851500371C00F09A86 /* NSArray+WFArrayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WFArrayUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				18C94362150030D900F09A86 /* WFAppDelegate.h */,
 				18C94363150030D900F09A86 /* WFAppDelegate.m */,
+				18C943841500371C00F09A86 /* NSArray+WFArrayUtil.h */,
+				18C943851500371C00F09A86 /* NSArray+WFArrayUtil.m */,
 				18C94365150030D900F09A86 /* MainMenu.xib */,
 				18C94357150030D900F09A86 /* Supporting Files */,
 			);
@@ -262,6 +267,7 @@
 			files = (
 				18C9435D150030D900F09A86 /* main.m in Sources */,
 				18C94364150030D900F09A86 /* WFAppDelegate.m in Sources */,
+				18C943861500371C00F09A86 /* NSArray+WFArrayUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

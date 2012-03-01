@@ -8,6 +8,18 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface LearnObjCTests : SenTestCase
+@interface LearnObjCTests : SenTestCase {
+    NSArray *intArray;
+    NSArray *fltArray;
+    NSArray *strArray;
+    NSMutableArray *intMutArray;
+    NSMutableArray *fltMutArray;
+}
+
+@property (retain) NSArray *intArray;
+@property (retain) NSArray *fltArray;
+@property (retain) NSArray *strArray;
+@property (retain) NSMutableArray *intMutArray;
+@property (retain) NSMutableArray *fltMutArray;
 
 @end
